@@ -1,5 +1,5 @@
-import  './Footer.css'
+import "./Footer.css"
 function Footer(){
-    return <p>&copy; 2026 All rights reserved</p>
+    return <h4 className="App-Footer">&copy; 2026. All rights reserved.</h4>
 }
 export default Footer
