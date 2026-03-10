@@ -1,0 +1,6 @@
+.App-Header{
+    background: #904242;
+    display: flex;
+    justify-content: space-between  ;
+    padding: 10px;
+}
