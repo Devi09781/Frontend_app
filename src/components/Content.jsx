@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./Content.css"
 
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.VITE_API_URL
+
 function Content() {
   // const [count, setCount] = useState(0);
   const [products, setProducts] = useState([]);
@@ -34,6 +35,8 @@ function Content() {
             <h3>{product.name}</h3>
             <p>{product.desc}</p>
             <h4>{product.price}</h4>
+            <p><button>Add to Cart</button></p>
+            <p>⭐ {product.rating}</p>
           </div>
         ))}
       </div>
