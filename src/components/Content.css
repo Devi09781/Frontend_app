@@ -1,13 +1,39 @@
 .row{
     display : flex
 ;
-justify-content : left ;
-flex-wrap : wrap;
-padding : 5px
+justify-content :center;
+flex-wrap : wrap ;
+padding : 5px ;
+justify-content: space-around;
+background-color: rgb(180, 165, 146);
+
 }
 
 .box{
     border : 1px solid gray;
-    padding :5px ; 
-    margin :5px;
+    padding :6px ; 
+    margin :6px;
+    border-radius : 20px ;
+    background-color: rgb(241, 236, 228);
+    /* background-color: rgb(160, 194, 195); */
+
+
+}
+.box:hover{
+    box-shadow: 20px 10px 10px rgba(200, 142, 142, 0.3);
+    
+    transform: scale(1.05);
+}
+
+.image{
+    border-radius: 20px;
+} 
+
+.click{
+    background-color: rgb(214, 150, 11);
+
+    padding: 7px;
+    color: white;
+    border-radius: 3px;
+    
 }

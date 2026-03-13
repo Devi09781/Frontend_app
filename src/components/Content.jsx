@@ -31,12 +31,12 @@ function Content() {
       <div className="row">
         {products.map((product) => (
           <div className="box">
-            <img src={`${API_URL}/${product.imageUrl}`} width="300px" alt="" />
+            <img className = "image" src={`${API_URL}/${product.imageUrl}`} width="250" alt="" />
             <h3>{product.name}</h3>
             <p>{product.desc}</p>
             <h4>{product.price}</h4>
             <p>
-              <button onClick={() => addToCart(product)}>Add to Cart</button>
+              <button className = "click" onClick={() => addToCart(product)}>Add to Cart</button>
             </p>
           </div>
         ))}
